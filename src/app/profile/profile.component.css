@@ -1,0 +1,33 @@
+#profile-pic {
+    margin-left: 20px;
+    float: left;
+}
+
+#dp {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+#person-details {
+    margin-top: 35px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+#profile-nav-section {
+    margin-top: 270px;
+    position: absolute;
+}
+
+#this-place {
+    margin-top: 320px;
+    margin-left: 30px;
+    position: absolute;
+    background-color: red;
+}
+
+#button-dp {
+    border: none;
+    background-color: transparent;
+}

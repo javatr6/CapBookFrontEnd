@@ -1,0 +1,9 @@
+<div id="rgt" class="container-fluid">
+  <h4 id="bottom-div">Online Friends</h4>
+  <div id="user1" *ngFor="let ol of online">
+    <img class="image1" width="50px" [src]="ol.imageUrl" />
+    <a href="#">
+      <h4 id="nme">{{ ol.UserName }}</h4>
+    </a>
+  </div>
+</div>

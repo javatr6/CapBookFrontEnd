@@ -1,0 +1,13 @@
+<div id="rgt" class="container-fluid">
+  <h4 id="bottom-div">Friend Requests</h4>
+  <div class="row" *ngFor="let request of requests">
+    <div id="user1">
+      <img class="image1" width="60px" [src]="request.imageUrl" />
+      <a href="#">
+        <h4 id="nme">{{ request.UserName }}</h4>
+      </a>
+      <button id="accpt" type="button" class="btn btn-success">Accept</button>
+      <button id="rejct" type="button" class="btn btn-danger">Reject</button>
+    </div>
+  </div>
+</div>

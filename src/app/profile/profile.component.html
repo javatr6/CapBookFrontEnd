@@ -1,0 +1,30 @@
+<div>
+    <div id="profile-pic">
+        <button id="button-dp"><img src="../../assets/images/sm.jpg" width="250px" id="dp"/><input type="file"></button>
+    </div>
+    <div id="person-details">
+        <h1>Avinash Kannuru</h1>
+        <h2>Software Engineer</h2>
+        <h3>Relationship Status: Single</h3>
+    </div>
+    <div id="profile-nav-section">
+        <nav class='navbar navbar-primary' id="navbar-style">
+            <div class='container-fluid'>
+                <ul class='nav navbar-nav'>
+                    <li><a [routerLink]="['/profile/profilewall']">My Wall</a></li>
+                    <li><a [routerLink]="['/profile']">Friends</a></li>
+                    <li><a [routerLink]="['/']">Photos</a></li>
+                    <li><a [routerLink]="['/']">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div>
+    <div id="this-place">
+        <pm-profilewall>
+            <router-outlet></router-outlet>
+        </pm-profilewall>
+    </div>
+</div>

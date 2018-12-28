@@ -1,0 +1,41 @@
+#left-logo {
+    margin-top: -5px;
+}
+
+#friend-search {
+    margin-top: 9px;
+    float: right;
+    margin-left: 410px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#navbar-style {
+    background-color: #81d4fa;
+    border-radius: none;
+}
+
+#right-search {
+    background-color: #b3e5fc; 
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;    
+}
+
+#right-button {
+    background-color: #4fc3f7;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li:hover{
+    background-color: none;
+}

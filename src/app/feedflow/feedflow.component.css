@@ -1,0 +1,28 @@
+#feedflow {
+    position: absolute;
+    width: 962px;
+    height: 605px;
+    margin-top: -20px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#status {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+#divider {
+    position: absolute;
+    height: 1px;
+    width: 1000px;
+    background-color: #81d4fa;
+    margin-top: 165px;
+}
+
+#feed {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}

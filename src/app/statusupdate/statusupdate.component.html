@@ -1,0 +1,26 @@
+<div class="container" id="parent-div">
+  <img src="../../assets/images/ww.jpg" width="80px" id="dp"/>
+  <form class="f">
+    <table>
+      <tr>
+        <td colspan="2" class="upper">
+          What's in your mind..??
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <textarea id="txtarea" rows="3" cols="41"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input style="border: none; background-color: #bdbdbd" type="file" class="uploadnsubmit" [title]="Images"
+            (click)='drive'/>
+        </td>
+        <td>
+          <input type="submit" class="uploadnsubmit" value="Post"/>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>

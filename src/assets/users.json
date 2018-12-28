@@ -1,0 +1,21 @@
+[
+    {
+        "UserName":"Wonder Woman",
+        "imageUrl":"../assets/images/ww.jpg"
+      
+    },
+    {
+        "UserName":"Aquaman",
+        "imageUrl":"../assets/images/am.jpeg"
+        
+    },
+    {
+        "UserName":"Joker",
+        "imageUrl":"../assets/images/j.jpg"        
+    },
+    {
+        "UserName":"Superman",
+        "imageUrl":"../assets/images/sm.jpg"        
+    }
+
+]

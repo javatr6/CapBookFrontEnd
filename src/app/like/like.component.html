@@ -1,0 +1,99 @@
+<div class="container">
+  <h4><a href="#">Harish </a></h4>
+  <img src="../../assets/images/ww.jpg" class="img-rounded" alt="Cinque Terre" height="304" id="upimg">
+  <div>
+    <br>
+    <div class="btn-group" style="padding-top: 200px">
+      <button onclick="setColor(event)" type="button" class="btn btn-default ">
+        <span class="glyphicon glyphicon-thumbs-up "></span> Like
+      </button>
+      <button class="btn btn-default " (click)=" addTextarea()">Comment</button>
+      <form class="f" (ngSubmit)="onSubmit()">
+        <div *ngFor="let textarea of textAreasList; let textarea_index=index; let i=index">
+          <div *ngIf="i<1">
+            <textarea name=" {{textarea}}" rows=" 2" cols="50" [(ngModel)]='c.commentText'></textarea>
+            <button type="submit" name="Post">Post</button>
+          </div>
+        </div>
+      </form>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let comment of comments'>
+            <td>{{comment.commentText}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="container" class="second">
+      <h4><a href="#">Avinash Kannuru</a></h4>
+    <img src="../../assets/images/ap.png" class="img-rounded" alt="Cinque Terre" height="304" id="upimg">
+    <div>
+      <br>
+      <div class="btn-group" style="padding-top: 200px">
+        <button onclick="setColor(event)" type="button" class="btn btn-default ">
+          <span class="glyphicon glyphicon-thumbs-up "></span> Like
+        </button>
+        <button class="btn btn-default " (click)=" addTextarea()">Comment</button>
+        <form class="f" (ngSubmit)="onSubmit()">
+          <div *ngFor="let textarea of textAreasList; let textarea_index=index; let i=index">
+            <div *ngIf="i<1">
+              <textarea name=" {{textarea}}" rows=" 2" cols="50" [(ngModel)]='c.commentText'></textarea>
+              <button type="submit" name="Post">Post</button>
+            </div>
+          </div>
+        </form>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let comment of comments'>
+              <td>{{comment.commentText}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="container" class="second">
+        <h4><a href="#">Vyjayanth</a></h4>
+      <img src="../../assets/images/howto.png" class="img-rounded" alt="Cinque Terre" height="304" id="upimg">
+      <div>
+        <br>
+        <div class="btn-group" style="padding-top: 200px">
+          <button onclick="setColor(event)" type="button" class="btn btn-default ">
+            <span class="glyphicon glyphicon-thumbs-up "></span> Like
+          </button>
+          <button class="btn btn-default " (click)=" addTextarea()">Comment</button>
+          <form class="f" (ngSubmit)="onSubmit()">
+            <div *ngFor="let textarea of textAreasList; let textarea_index=index; let i=index">
+              <div *ngIf="i<1">
+                <textarea name=" {{textarea}}" rows=" 2" cols="50" [(ngModel)]='c.commentText'></textarea>
+                <button type="submit" name="Post">Post</button>
+              </div>
+            </div>
+          </form>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Comments</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor='let comment of comments'>
+                <td>{{comment.commentText}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>

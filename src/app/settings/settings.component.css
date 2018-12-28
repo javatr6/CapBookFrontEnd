@@ -1,0 +1,15 @@
+#parent {
+    width: 98%;
+    padding-left: 30px;
+}
+
+#thetag{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+#theoption{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
